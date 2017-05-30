@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bcp.tspro">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.Camera"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SurfaceLineActivity"
+            android:label="@string/title_activity_surface_line"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name="service.SimpleService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity android:name=".AnimActivity" />
+        <activity android:name=".ServiceActivity" />
+        <activity
+            android:name="hardware.CustomCamera"
+            android:screenOrientation="landscape" />
+
+        <service
+            android:name="service.RemoteService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote" />
+
+        <activity android:name=".ClientActivity" />
+
+        <service
+            android:name="service.MusicService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".PlayerActivity" />
+        <activity android:name=".AudioRecordActivity" />
+        <activity android:name=".CameraActivity" />
+        <activity android:name=".SensorActivity" />
+        <activity android:name=".Camera2Activity" />
+        <activity android:name=".DownloadActivity" />
+        <activity android:name=".XmlParserActivity" />
+        <activity android:name=".SocketActivity" />
+        <activity android:name=".AdjustScreenActivity" />
+        <activity android:name=".WebviewActivity" />
+        <activity android:name=".PorterDuffActivity"></activity>
+    </application>
+
+</manifest>

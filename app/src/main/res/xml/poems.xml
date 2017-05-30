@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entry>
+    <poem>
+        <title>孟子</title>
+        <author>孟轲</author>
+        <content>天将降大任于斯人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为，所以动心忍性，增益其所不能</content>
+    </poem>
+    <poem>
+        <title>哈姆雷特</title>
+        <author>莎士比亚</author>
+        <content>生存还是毁灭，这是个问题。究竟哪样更高贵，去忍受那狂暴命运无情的摧残，还是挺身去反抗那无边的烦恼，把它扫一个干净？</content>
+    </poem>
+</entry>
