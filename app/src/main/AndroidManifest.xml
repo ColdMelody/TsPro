@@ -70,7 +70,9 @@
         <activity android:name=".SocketActivity" />
         <activity android:name=".AdjustScreenActivity" />
         <activity android:name=".WebviewActivity" />
-        <activity android:name=".PorterDuffActivity"></activity>
+        <activity android:name=".PorterDuffActivity" />
+        <activity android:name=".ToolBarActivity" />
+        <activity android:name=".ScrollerActivity"></activity>
     </application>
 
 </manifest>

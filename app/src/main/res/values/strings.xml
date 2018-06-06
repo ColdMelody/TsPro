@@ -22,4 +22,5 @@
     <string name="density">Density</string>
     <string name="webview">WebView</string>
     <string name="porterduff">PorterDuff</string>
+    <string name="toolbar_demo">ToolBar</string>
 </resources>

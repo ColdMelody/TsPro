@@ -51,7 +51,8 @@ public class MainActivity extends Activity {
                 new Sample(R.string.socket, SocketActivity.class),
                 new Sample(R.string.density, AdjustScreenActivity.class),
                 new Sample(R.string.webview, WebviewActivity.class),
-                new Sample(R.string.porterduff, PorterDuffActivity.class)};
+                new Sample(R.string.porterduff, PorterDuffActivity.class),
+                new Sample(R.string.toolbar_demo,ToolBarActivity.class)};
         if (mLvToAcv != null) {
             mLvToAcv.setAdapter(new ArrayAdapter<>(this, R.layout.listview_content,
                     R.id.list_content, samples));
